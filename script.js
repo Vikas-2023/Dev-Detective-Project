@@ -115,7 +115,7 @@ function getUserData(gitUrl) {
   root.setProperty("--lm-text-alt", "white");
   root.setProperty("--lm-shadow-xl", "rgba(70,88,109,0.15)");
   modetext.innerText = "LIGHT";
-  modeicon.src = "/images/sun-icon.svg";
+  modeicon.src = "images/sun-icon.svg";
   root.setProperty("--lm-icon-bg", "brightness(1000%)");
   darkMode = true;
   localStorage.setItem("dark-mode",true);
@@ -128,7 +128,7 @@ function getUserData(gitUrl) {
   root.setProperty("--lm-text-alt", "#2B3442");
   root.setProperty("--lm-shadow-xl", "rgba(70, 88, 109, 0.25)");
   modetext.innerText = "DARK";
-  modeicon.src = "/images/moon-icon.svg";
+  modeicon.src = "images/moon-icon.svg";
   root.setProperty("--lm-icon-bg", "brightness(100%)");
   darkMode = false;
   localStorage.setItem("dark-mode",false);
